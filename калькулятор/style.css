@@ -1,0 +1,32 @@
+
+.btn{background-color: rgb(119, 11, 252);
+    color: whitesmoke;
+     padding: 5px 8px;
+      border: 1px solid black;
+       border-radius: 10px;
+        cursor: pointer;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 17px;
+           margin-top: 10px;
+            margin-right: 10px;}
+body{background-color:rgba(61, 0, 131, 0.814)}
+
+.text{
+    background-color:blueviolet;
+    padding: 20px 40px;
+    font-size: 100px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 17px;
+    margin-right: 17px;
+    border-radius: 20px;
+    width-limit {max-width: 300px;}
+    display: inline-block;
+}
+
+.feet{
+    border-radius: 20px;
+    position: absolute top 50px;
+}
+
+

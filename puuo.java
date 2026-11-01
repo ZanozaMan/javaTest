@@ -7,8 +7,12 @@ public class puuo {
         int num = sc.nextInt();
 
         for (int i = 1; i <= num; i++) {
-            System.out.println("Число "+ i + ": " + i);
+            System.out.println(i);
+            if (i == 67) {
+                System.out.println("хыхыхы 67");
+            }
         }
+
 
     }
 }

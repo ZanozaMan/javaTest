@@ -13,7 +13,6 @@ public class puuo {
             }
         }
 
-        
         while (true) { 
             System.out.print("напиши число от 1 до 5: ");
             int a = sc.nextInt();
@@ -35,8 +34,23 @@ public class puuo {
                 break;
             } else {
                 System.out.println("Что то пошло не так!\nПовотри действия");
-            }
+            }      
         }
 
+        Kal obj = new Kal();
+                
+            obj.name = "Валера";
+            obj.age = 18;
+            obj.number = 89041470556L;
+
+
+            
+            System.out.println(obj.number);
     }
+}
+
+class Kal {
+    String name;
+    int age;
+    long number;
 }

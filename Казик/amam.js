@@ -1,15 +1,15 @@
-let obj = {};
+// let obj = {};
 
-obj.name = prompt("Ваше имя?");
-obj.age = +prompt("Ваш возраст?");
-obj.gmail = prompt("Ваш почта?");
+// obj.name = prompt("Ваше имя?");
+// obj.age = +prompt("Ваш возраст?");
+// obj.gmail = prompt("Ваш почта?");
 
-if (obj.age < 18) {
-  alert("Извините, доступ заперщен!")
-  delete ruletka(), dep(), superGame(), myDepozit(), superGame(), stav(), Black_Jack();
-} else {
-  alert("Добро пожаловать в КазикМазик!");
-}
+// if (obj.age < 18) {
+//   alert("Извините, доступ заперщен!")
+//   delete ruletka(), dep(), superGame(), myDepozit(), superGame(), stav(), Black_Jack();
+// } else {
+//   alert("Добро пожаловать в КазикМазик!");
+// }
 
 const kaz = ["🍒", "🍋", "🍊", "⭐", "💎", "🔔"]
 //const kaz = ["🍒", "🍋", "🍊", "⭐", "💎", "🔔", "🔥", "🎲", "💣"]
@@ -185,14 +185,3 @@ function DeleteAcount() {
   }
 }
 
-function new_user() {
-  let que = confirm("Хотите создать Аккаутн?")
-  if (que == true && obj.name, obj.age, obj.gmail == true) {
-    alert("У вас уже есть аккаунт!")
-  } else {
-      this.name = prompt("Ваше имя?");
-      this.age = +prompt("Ваш возраст?");
-      this.gmail = prompt("Ваш почта?");
-      alert("Добро пожаловать!")
-  }
-}

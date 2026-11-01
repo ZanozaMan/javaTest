@@ -13,6 +13,30 @@ public class puuo {
             }
         }
 
+        
+        while (true) { 
+            System.out.print("напиши число от 1 до 5: ");
+            int a = sc.nextInt();
+
+            if (a == 1) {
+                System.out.println("ты нажал 1");
+                break;
+            } else if (a == 2) {
+                System.out.println("ты нажал 2 ");
+                break;
+            } else if (a == 3) {
+                System.out.println("ты нажал 3");
+                break;
+            } else if (a == 4) {
+                System.out.println("ты нажал 4");
+                break;
+            } else if (a == 5) {
+                System.out.println("ты нажал 5");
+                break;
+            } else {
+                System.out.println("Что то пошло не так!\nПовотри действия");
+            }
+        }
 
     }
 }
